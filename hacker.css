@@ -1,5 +1,5 @@
 body {
-	font-family: Verdana, Geneva, sans-serif;
+	font-family: Verdana;
     font-size: 10pt;
     color: #828282;
 }
@@ -10,6 +10,78 @@ body {
 	margin: 0 auto;
 }
 
+#header {
+	background-color: #ff6600;
+	padding: 0;
+}
+
+#nav {	
+	color: #000000;
+	font-family: Verdana; 
+	font-size: 10pt;
+	padding: 2px 2px 0 2px;
+	width: 100%;
+}
+
+#logo {
+	padding-right: 4px;
+	width: 18px;
+
+}
+
+#menu {
+	height: 10px;
+	line-height: 12pt; 
+}
+
+#hnname {
+	margin-right: 4px;
+}
+
+#login {
+	padding-right: 4px;
+	text-align: right;
+}
+
+.title {
+	color:#828282;
+	font-family:Verdana; 
+	font-size: 10pt; 
+}
+
+.number {
+	color:#828282;
+	font-family:Verdana; 
+	font-size: 10pt;
+	vertical-align: text-top;
+}
+
+.rank {
+	padding-left: 8px;
+	vertical-align: text-top;
+}
+
+.votearrow {
+  	width: 10px;
+  	height: 10px;
+ }
+
+.comhead {
+	font-family:Verdana; 
+	font-size:  8pt; 
+	color:#828282; 
+}
+
+.subtext {
+	color:#828282;
+	font-family:Verdana; 
+	font-size: 7pt; 
+}
+
+.spacer {
+	height: 5px;
+}
+
 a:link {
 	color: black;
 	text-decoration: none;
@@ -17,13 +89,21 @@ a:link {
 
 a:visited {
 	color: #828282;
-	text-direction: none;
+	text-decoration: none;
+}
+
+.pagetop a:visited {
+	color: #000000;
 }
 
 .comhead a:link, .comhead a:visited {
 	color: #828282;
 }
 .comhead a:hover {
+	text-decoration: underline;
+}
+
+.subtext a:hover {
 	text-decoration: underline;
 }
 
