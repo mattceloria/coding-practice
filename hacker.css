@@ -92,11 +92,14 @@ body {
 }
 
 .ylinks {
+	background-color: #f6f6ef;
 	color:#828282;
 	font-family:Verdana;
 	font-size:  8pt; 
-	margin-bottom: 20px;
+	margin: 0 auto;
+	padding: 15px 0;
 	text-align: center;
+	width: 85%;
 }
 
 .search {
