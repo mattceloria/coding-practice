@@ -1,0 +1,71 @@
+body {
+	
+}
+
+nav.top {
+	float: right;
+	font-family: arial;
+	font-size: 11pt;
+	margin: 20px;
+}
+
+nav ul {
+	display: inline;
+}
+
+nav ul li {
+	display: inline;
+	padding: 10px;
+}
+
+a {
+	color: grey;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+img.app {
+	vertical-align: middle;
+}
+
+li.app {
+	margin-right: 10px;
+}
+
+.signin {
+	background-color: #4387fd;
+	border-radius: 4px;
+	padding: 10px 15px;
+}
+
+.signin a {
+	color:white;
+}
+
+.logo {
+	clear: both;
+	margin: 0 auto;
+	width: 50%;
+}
+
+.home {
+	display: block;
+	margin: 0 auto;
+}
+
+.search {
+	margin: 0 auto;
+	width: 50%;
+}
+
+#field {
+	display: block;
+	padding: 10px;
+	margin: 0 auto;
+	width: 75%;
+}
+	
+
