@@ -10,12 +10,11 @@ body {
 	margin: 0 auto;
 }
 
-#header {
+#toprow {
 	background-color: #ff6600;
-	padding: 0;
 }
 
-#nav {	
+#toptable {	
 	color: #000000;
 	font-family: Verdana; 
 	font-size: 10pt;
@@ -26,7 +25,7 @@ body {
 #logo {
 	padding-right: 4px;
 	width: 18px;
-
+	height: 18px;
 }
 
 #menu {
@@ -43,6 +42,15 @@ body {
 	text-align: right;
 }
 
+#bottomtable {
+	width: 100%;
+}
+
+#bottomrow {
+	background-color: #ff6600;
+	padding: 1px;
+}
+
 .title {
 	color:#828282;
 	font-family:Verdana; 
@@ -53,17 +61,18 @@ body {
 	color:#828282;
 	font-family:Verdana; 
 	font-size: 10pt;
+	text-align: right;
 	vertical-align: text-top;
 }
 
 .rank {
-	padding-left: 8px;
 	vertical-align: text-top;
 }
 
 .votearrow {
   	width: 10px;
   	height: 10px;
+  	padding: 0 2px;
  }
 
 .comhead {
@@ -80,6 +89,20 @@ body {
 
 .spacer {
 	height: 5px;
+}
+
+.ylinks {
+	color:#828282;
+	font-family:Verdana;
+	font-size:  8pt; 
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.search {
+	color:#828282;
+	font-family:Verdana;
+	font-size:  10pt; 
 }
 
 a:link {
