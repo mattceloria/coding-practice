@@ -2,10 +2,14 @@ body {
 	
 }
 
-nav.top {
-	float: right;
+nav {
 	font-family: arial;
 	font-size: 11pt;
+	
+}
+
+nav.top {
+	float: right;
 	margin: 20px;
 }
 
@@ -67,5 +71,36 @@ li.app {
 	margin: 0 auto;
 	width: 75%;
 }
-	
 
+.select {
+	margin: 0 auto;
+	width: 20%;
+}
+
+.button {
+	background-color: #f2f2f2;
+	border: none;
+	color: #757575;
+	font-family: arial;
+	font-weight: bold;
+	line-height: 27px;
+	position: relative;
+	left: 25px;
+	padding: 5px 15px;
+}
+
+.bottom {
+	margin: 0 auto;
+	width: 100%;
+}
+
+.bottom-left {
+	float: left;
+	margin: 20px;
+	padding: 0;
+}
+
+.bottom-right {
+	margin: 20px;
+	float: right;
+}
