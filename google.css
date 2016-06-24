@@ -53,6 +53,7 @@ li.app {
 .logo {
 	clear: both;
 	margin: 0 auto;
+	padding-top: 100px;
 	width: 50%;
 }
 
