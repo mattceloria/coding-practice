@@ -33,7 +33,9 @@ a:hover {
 }
 
 img.app {
+	height: 18px;
 	vertical-align: middle;
+	width: 18px;
 }
 
 li.app {
@@ -53,23 +55,20 @@ li.app {
 .logo {
 	clear: both;
 	margin: 0 auto;
-	padding-top: 100px;
+	padding-bottom: 30px;
+	padding-top: 150px;
 	width: 50%;
 }
 
 .home {
 	display: block;
-	margin: 0 auto;
-}
-
-img.home {
 	height: 101px;
 	width: 299px;
-	padding-top: 109px;
+	margin: 0 auto;
 }
 
 .search {
-	margin: 0 auto;
+	margin: 0 auto 40px;
 	width: 50%;
 }
 
