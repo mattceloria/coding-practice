@@ -4,49 +4,74 @@ body {
     color: #828282;
 }
 
-.toprow {
+.top-row {
 	background-color: #ff6600;
-	width: 85%;
 	margin: 0 auto;
+	line-height: 22px;
+	width: 85%;
 }
 
-#main {
+.top-logo {
+	display: inline-block;
+	margin-left: 2px;
+	margin-bottom: 2px;
+}
+
+.top-image {
+	border: 1px solid white;
+	width: 18px;
+	height: 18px;
+	vertical-align: middle;
+}
+
+.top-title {
+	color: #000000;
+	margin-right: 4px;
+	vertical-align: middle;
+}
+
+.top-menu {
+	color: #000000;
+	vertical-align: middle;
+}
+
+.top-login {
+	float: right;
+	margin-right: 6px;
+	vertical-align: middle;
+}
+
+.main {
 	background-color: #f6f6ef;
 	width: 85%;
 	margin: 0 auto;
 }
 
-#toprow {
-	background-color: #ff6600;
+.headline {
+	display: inline-block;
+	margin: 5px 0 0 10px;
 }
 
-#toptable {	
-	color: #000000;
-	font-family: Verdana; 
-	font-size: 10pt;
-	padding: 2px 2px 0 2px;
-	width: 100%;
+.title {
+	color:#828282;
+	font-family:Verdana; 
+	font-size: 10pt; 
 }
 
-#logo {
-	padding-right: 4px;
-	width: 18px;
-	height: 18px;
+ .comhead {
+	font-family:Verdana; 
+	font-size:  8pt; 
+	color:#828282; 
 }
 
-#menu {
-	height: 10px;
-	line-height: 12pt; 
+.subtext {
+	color:#828282;
+	font-family:Verdana; 
+	font-size: 7pt; 
+	margin-left: 30px;
 }
 
-#hnname {
-	margin-right: 4px;
-}
 
-#login {
-	padding-right: 4px;
-	text-align: right;
-}
 
 #bottomtable {
 	width: 100%;
@@ -57,41 +82,15 @@ body {
 	padding: 1px;
 }
 
-.title {
-	color:#828282;
-	font-family:Verdana; 
-	font-size: 10pt; 
-}
 
-.number {
-	color:#828282;
-	font-family:Verdana; 
-	font-size: 10pt;
-	text-align: right;
-	vertical-align: text-top;
-}
 
-.rank {
-	vertical-align: text-top;
-}
 
-.votearrow {
-  	width: 10px;
-  	height: 10px;
-  	padding: 0 2px;
- }
 
-.comhead {
-	font-family:Verdana; 
-	font-size:  8pt; 
-	color:#828282; 
-}
 
-.subtext {
-	color:#828282;
-	font-family:Verdana; 
-	font-size: 7pt; 
-}
+
+
+
+
 
 .spacer {
 	height: 5px;
@@ -114,18 +113,19 @@ body {
 	font-size:  10pt; 
 }
 
-a:link {
+a:link, a:visited {
 	color: black;
 	text-decoration: none;
 }
 
-a:visited {
-	color: #828282;
+.headline a:link {
+	color: black;
 	text-decoration: none;
 }
 
-.pagetop a:visited {
-	color: #000000;
+.headline a:visited {
+	color: #828282;
+	text-decoration: none;
 }
 
 .comhead a:link, .comhead a:visited {
@@ -133,6 +133,10 @@ a:visited {
 }
 .comhead a:hover {
 	text-decoration: underline;
+}
+
+.subtext a:link, .subtext a:visited {
+	color: #828282;
 }
 
 .subtext a:hover {
